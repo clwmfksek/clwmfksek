@@ -143,19 +143,21 @@ map = [
 
 l = []
 d = {}
-for i in map:
+for i in map: 
     l.append(i['longitude'])
-l.sort()
+l.sort() # longitude 내림차순 정렬
 
 for j in l:
     for k in map:
         if k["longitude"] == j:
             name = k["title"].split(" ")
-            del name[0]
+            del name[0] # 동국대학교 문자열 삭제
             try :
-                b = name[0]+name[1]
+                b = name[0]+name[1] # 동국대학교 ~ ~
             except :
-                b = name[0]
-            d[b]=j
+                b = name[0] # 동국대학교 ~
+            d[b]=j # d 딕셔너리에 b라는 이름의 키에 j value 저장
 
 print(d)
+
+
