@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function buttonclick(){
+        console.log(document.getElementById("w1").style.display)
+        if(document.getElementById("w1").style.display == 'block'){
+            document.getElementById("w1").style = 'display:none;'
+            document.getElementById("w2").style = 'display:none;'
+            document.getElementById("w3").style = 'display:none;'
+            document.getElementById("w5").style = 'display:none;'
+            document.getElementById("w6").style = 'display:none;'
+        } else if(document.getElementById("w1").style.display == '' || document.getElementById("w1").style.display == 'none'){
+            document.getElementById("w1").style = 'display:block;'
+            document.getElementById("w2").style = 'display:block;'
+            document.getElementById("w3").style = 'display:block;'
+            document.getElementById("w5").style = 'display:block;'
+            document.getElementById("w6").style = 'display:block;'
+        }
+
+    }
+</script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+    button:hover{
+        background-color: peachpuff;
+    }
+    button:active{
+        background-color: yellow;
+    }
+    body{
+        font-family: 'Do hyeon',sans-serif; 
+    }
+
+    a{
+        color:white;
+        text-decoration-line: none;
+        font-size : 44px;
+    }
+
+    .circle{
+        font-family: 'Do hyeon',sans-serif;
+        margin-top:10%;
+        margin-left:34%;
+        width : 500px;
+        height : 500px;
+        border : 15px solid plum;
+        border-radius : 50%;
+        left : 100%;
+        top : 30%;
+        z-index: 999;
+        font-size : 44px;
+    }
+    #w1{
+        display: none;
+        border : 1px solid gray;
+        background-color: beige;
+        text-align: center;
+        width : 1678px;
+        height: 900px;
+        top : 2%;
+        left : auto;
+        position: fixed;
+        z-index: -1;
+        font-size : 44px;
+    }
+    #w2{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        width : 1670px;
+        height : 15px;
+        top : 930px;
+        text-align: center;
+        border : 5px solid pink;
+        z-index:-2;
+    }
+    #w3{    
+        display: none;
+        z-index : 999;
+        position : fixed;
+        height : 800px;
+        width : 100px;
+        text-align: center;
+        background-color: black;
+        color:whitesmoke;
+        top : 100px;
+        z-index:1;
+    }
+    #w5{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        width : 1670px;
+        height : 15px;
+        top : 970px;
+        text-align: center;
+        border : 5px solid pink;
+        z-index:-2;
+    }
+    #w6{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        width : 1670px;
+        height : 15px;
+        top : 1010px;
+        text-align: center;
+        border : 5px solid pink;
+        z-index:-2;
+    }
+</style>
+<body>
+    <button onclick="buttonclick()" class="circle" type="button">버튼</button>
+    <div id="w1">안녕하세요~~^^..</div>
+    <div id="w2">제 이름은 신효환 입니다</div>
+    <div id = "w3">
+        <p id="w4">메뉴판</p>
+        <a href="https://bbq.co.kr/" id="a1">치킨</a>
+        <a href="https://web.dominos.co.kr/main" id="a2">피자</a>
+        <a href="https://gajok.kr/" id="a3">족발</a>
+    </div>
+    <div id="w5">학번은 2023111552 입니다</div>
+    <div id="w6">끝입니다^^..</div>
+</body>
+</html>
