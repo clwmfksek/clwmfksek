@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+    *{
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    li{
+        list-style:none;
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    .menu{
+        width:50%;
+        overflow: hidden;
+        margin: 150px auto;
+        background-color: aqua;
+        border-radius:100px;
+        font-size : 24px;
+    }
+    .menu > li{
+        text-align:center;
+        margin:30px;
+        float:left;
+        border-radius:80%;
+    }
+    .menu > li:hover {
+        background-color: #94a9ff;
+        transition-duration: 0.5s;
+        border-radius:10px;
+    }
+    button{
+	    all: unset;
+        text-align: center;
+    }
+    .submenu > li{
+        line-height: 50px;
+        background-color: #94a9ff;
+    }
+    .submenu{
+        height:0;
+        overflow: hidden;
+    }
+    .menu > li:hover .submenu {
+        height: 200px;
+        transition-duration: 1s;
+    }
+</style>
+<script>
+    function func1(clicked_id){
+        switch(clicked_id){
+            case 'bt1':
+                document.getElementById("iframe").src = "https://music.youtube.com/";
+                break;
+            case 'bt2':
+                document.getElementById("iframe").src = "https://music.apple.com/kr/browse";
+                break;
+            case 'bt3':
+                document.getElementById("iframe").src = "https://www.melon.com/";
+                break;
+            case 'bt4':
+                document.getElementById("iframe").src = "https://music.bugs.co.kr/";
+                break;
+            case 'bt5':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt6':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt7':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt8':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt9':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt10':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt11':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt12':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt13':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt14':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt15':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+            case 'bt16':
+                document.getElementById("iframe").src = "https://naver.com";
+                break;
+        }
+    }
+</script>
+<body>
+    <ul class="menu">
+        <li>
+            <a href="./home.html" id="home">홈</a>
+        </li>
+        <li>
+            <a href="#">음원</a>
+            <ul class="submenu">
+                <li><a href="https://music.youtube.com/" target='_blank'>Youtube Music</a></li>
+                <li><a href="https://music.apple.com/kr/browse" target='_blank'>Apple Music</a></li>
+                <li><a href="https://www.melon.com/" target='_blank'>Melon</a></li>
+                <li><a href="https://music.bugs.co.kr/" target='_blank'>Bugs!</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">치킨</a>
+            <ul class="submenu">
+                <li><a href="https://bbq.co.kr/" target='_blank'>BBQ</a></li>
+                <li><a href="https://www.bhc.co.kr/" target='_blank'>BHC</a></li>
+                <li><a href="https://www.cheogajip.co.kr/" target='_blank'>처갓집</a></li>
+                <li><a href="https://puradakchicken.com/main/" target='_blank'>푸라닭</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">검색</a>
+            <ul class="submenu">
+                <li><a href="https://naver.com" target='_blank'>Naver</a></li>
+                <li><a href="https://daum.net/" target='_blank'>Daum</a></li>
+                <li><a href="https://google.com/" target='_blank'>Google</a></li>
+                <li><a href="https://yandex.ru" target='_blank'>Yandex</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">쇼핑</a>
+            <ul class="submenu">
+                <li><a href="https://www.coupang.com/" target='_blank'>Coupang</a></li>
+                <li><a href="https://www.11st.co.kr/" target='_blank'>11번가</a></li>
+                <li><a href="https://www.gmarket.co.kr/" target='_blank'>G마켓</a></li>
+                <li><a href="https://shopping.naver.com/home" target='_blank'>네이버쇼핑</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

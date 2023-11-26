@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Caps</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+    *{
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    li{
+        list-style:none;
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    .menu{
+        width:50%;
+        overflow: hidden;
+        margin: 150px auto;
+        background-color: aqua;
+        border-radius:100px;
+        font-size : 24px;
+    }
+    .menu > li{
+        text-align:center;
+        margin:30px;
+        float:left;
+        border-radius:80%;
+    }
+    .menu > li:hover {
+        background-color: #94a9ff;
+        transition-duration: 0.5s;
+        border-radius:10px;
+    }
+    button{
+	    all: unset;
+        text-align: center;
+    }
+</style>
+<script>
+    function clickfunction(clicked_id){
+        if(clicked_id == 1){
+
+        }else if(clicked_id == 2){
+            document.getElementById("iframe").src = "http://capszzang.gq/about/rule/";
+        }else if(clicked_id == 3){
+            document.getElementById("iframe").src = "http://capszzang.gq/ranking/";
+        }else if(clicked_id == 4){
+            document.getElementById("iframe").src = "http://capszzang.gq/about/introduce/";
+        }else if(clicked_id == 5){
+            document.getElementById("iframe").src = "http://capszzang.gq/forum/?category=11";
+        }else if(clicked_id == 6){
+            document.getElementById("iframe").src = "http://capszzang.gq/wiki/";
+        }else{
+            document.getElementById("iframe").src = "http://capszzang.gq/about/history/";
+        }
+    }
+</script>
+<body>
+    <ul class="menu">
+        <li>
+            <a href="./home.html" id="home">홈</a>
+        </li>
+        <li>
+            <button onclick="clickfunction(this.id)" id = "2">회칙</button>
+        </li>
+        <li>
+            <button onclick="clickfunction(this.id)" id = "3">활동 랭킹</button>
+        </li>
+        <li>
+            <button onclick="clickfunction(this.id)" id = "4">소개</button>
+        </li>
+        <li>
+            <button onclick="clickfunction(this.id)" id = "5">장부</button>
+        </li>
+        <li>
+            <button onclick="clickfunction(this.id)" id = "6">위키</button>
+        </li>
+        <li>
+            <button onclick="clickfunction(this.id)" id="7">연혁</button>
+        </li>
+    </ul>
+        <iframe src="http://capszzang.gq/" title="CAPS WIKI" width="100%" height="500px" id="iframe"></iframe>
+</body>
+</html>
