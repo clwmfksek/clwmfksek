@@ -1,24 +1,28 @@
 import requests
 from bs4 import BeautifulSoup
-import re
+import pyautogui as pg
 
-URL_get = "https://www.melon.com/chart/index.htm"
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-header = {'User-Agent':user_agent}
+url = "https://www.melon.com/chart/index.htm"
+header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"} 
+response = requests.get(url, headers=header)
+if response.status_code == 200:
+    html = response.text
+    soup = BeautifulSoup(html, 'html.parser')
+else : 
+    print(response.status_code)
 
-response = requests.get(URL_get, headers=header)
-soup = BeautifulSoup(response.text,'html.parser')
+m = pg.prompt("검색어를 입력하세요")
 
-p = re.compile('아이.') 
+a = soup.select('#lst50 > td:nth-child(2) > div > span.rank')
+b = soup.select('#lst50 > td:nth-child(6) > div > div > div.ellipsis.rank01 > span > a')
+c = soup.select('#lst50 > td:nth-child(6) > div > div > div.ellipsis.rank02 > a')
 
-name = []
-s = []
-
-for i in soup.select('#lst50 > td:nth-child(6) > div > div > div.ellipsis.rank01 > span > a'): #css selector 사용
-    name.append(i.text)
-for i in soup.select('#lst50 > td:nth-child(6) > div > div > div.ellipsis.rank02 > a'): #css selector 사용
-    s.append(i.text)
-
-for i,j in zip(name,s):
-    if p.search(j):
-        print(i,j)
+a1 = soup.select('#lst100 > td:nth-child(2) > div > span.rank')
+b1 = soup.select('#lst100 > td:nth-child(6) > div > div > div.ellipsis.rank01 > span > a')
+c1 = soup.select('#lst100 > td:nth-child(6) > div > div > div.ellipsis.rank02 > a')
+for i,j,k in zip(a,b,c):
+    if m == i.text:
+        print(f"Rank : {i.text} / title : {j.text} / name : {k.text}")
+for i,j,k in zip(a1,b1,c1):
+    if m == i.text:
+        print(f"Rank : {i.text} / title : {j.text} / name : {k.text}")
