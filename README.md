@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hola%20oi!&textBg=false)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&7469B6&text=HyoHwan)
 
 
 ## History
