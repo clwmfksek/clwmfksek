@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&7469B6&text=HyoHwan)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:7469B6,100:7469B6&height=300&text=HyoHwan)
 
 
 ## History
