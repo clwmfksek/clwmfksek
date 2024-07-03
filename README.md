@@ -4,7 +4,8 @@
 
 
 ## History
-Dongguk University M.I.S (2023.03~) <br>
+Dongguk University MIS (2023.03~2024.06) <br>
+Dongguk University CSE (2024.07~) <br>
 
 ## 🚩Language
 
