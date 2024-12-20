@@ -17,7 +17,7 @@ Dongguk University CSE (2024.07 -)
 
 ## OS
 
-[![My Skills](https://skillicons.dev/icons?i=windows,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=mac,linux)](https://skillicons.dev)
 
 
 ## SNS
