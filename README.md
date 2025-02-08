@@ -7,17 +7,22 @@
 Dongguk University MIS (2023.03 - 2024.06) <br>
 Dongguk University CSE (2024.07 -)
 
+동국대학교 중앙동아리 CAPS 총무부장 (2023.07 - 2024.01) && (2024.07-2025.01)<br>
+동국대학교 중앙동아리 CAPS 부회장 (2024.01 - 2024.07)<br>
+구름톤 유니브 3기 백엔드 (2024.09 - 2025.01)<br>
+동국대학교 중앙동아리 CAPS 회장 (2025.01 ~ ing)
+
 ## 🚩Language
 
-[![My Skills](https://skillicons.dev/icons?i=java,py,c,cpp,react,js,html,css,django)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,py,c,cpp,react,js,html,css,ts)](https://skillicons.dev)
 
 ## IDE
 
-[![My Skills](https://skillicons.dev/icons?i=idea,visualstudio,vscode,vim)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=idea,visualstudio,vscode,webstorm)](https://skillicons.dev)
 
 ## OS
 
-[![My Skills](https://skillicons.dev/icons?i=apple,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=windows,apple,linux)](https://skillicons.dev)
 
 
 ## SNS
