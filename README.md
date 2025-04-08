@@ -16,7 +16,7 @@ Dongguk University CSE (2024.07 -)
 
 ## 🚩Language
 
-[![My Skills](https://skillicons.dev/icons?i=java,py,c,cpp,react,js,html,css,ts)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,py,c,cpp,react,html,css,js,ts)](https://skillicons.dev)
 
 ## IDE
 
