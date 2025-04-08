@@ -11,6 +11,8 @@ Dongguk University CSE (2024.07 -)
 동국대학교 중앙동아리 CAPS 부회장 (2024.01 - 2024.07)<br>
 구름톤 유니브 3기 백엔드 (2024.09 - 2025.01)<br>
 동국대학교 중앙동아리 CAPS 회장 (2025.01 ~ ing)
+구름톤 유니브 4기 프론트엔드 (2025.03 ~ ing)
+팜시스템 4기 프론트엔드 (2025.03 ~ ing)
 
 ## 🚩Language
 
@@ -18,16 +20,16 @@ Dongguk University CSE (2024.07 -)
 
 ## IDE
 
-[![My Skills](https://skillicons.dev/icons?i=idea,visualstudio,vscode,webstorm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=idea,vscode)](https://skillicons.dev)
 
 ## OS
 
-[![My Skills](https://skillicons.dev/icons?i=windows,apple,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=windows,apple)](https://skillicons.dev)
 
 
-## SNS
+## Media
 
-[![My Skills](https://skillicons.dev/icons?i=github,git,instagram,notion,discord,gmail)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=github,git,instagram,notion,discord)](https://skillicons.dev)
 
 
 ---
