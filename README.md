@@ -20,7 +20,7 @@ Dongguk University CSE (2024.07 -)
 
 ## IDE
 
-[![My Skills](https://skillicons.dev/icons?i=idea,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=idea,vscode,cursor)](https://skillicons.dev)
 
 ## OS
 
