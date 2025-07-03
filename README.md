@@ -38,10 +38,6 @@ Dongguk University CSE (2024.07 -)
 ### Baekjoon Solved Rank 🏆
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=clwm0217)](https://solved.ac/clwm0217)
-<a href="https://solved.ac/profile/clwm0217">
-	<img src="http://mazandi.herokuapp.com/api?handle=clwm0217&theme=dark" />
-</a>
-
 
 ### Github Stats 📊
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=clwmfksek&show_icons=true&theme=radical)
