@@ -13,6 +13,7 @@ Dongguk University CSE (2024.07 -)
 동국대학교 중앙동아리 CAPS 회장 (2025.01 ~ 2026.01)<br>
 팜시스템 4기 프론트엔드 (2025.03 ~ 2025.12)<br>
 Lovable Campus Leader (2025.12 ~ ing)<br>
+BuddyLabs Inc. 개발리드 (2026.04 ~ ing)<br>
 
 ---
 <div>
